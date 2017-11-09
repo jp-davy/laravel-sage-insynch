@@ -6,6 +6,10 @@ This is not a comprehensive package for Laravel, but rather a collection of file
 
 **Current Sage Version Supported:** Sage 100 2014 (5.10.4)
 
+### What is the purpose of this project?
+
+I found myself doing a lot of copying/pasting of field names from the Sage Resources File Layouts help pages. I figured since Laravel is so popular, there might be somebody else out there doing the same thing -- using Laravel and Sage with In-Synch by ROI installed. So, let's help people by collaborating on migration files, and even Eloquent models.
+
 ## Installation
 
 You can clone this repository and copy/paste the migrations, and models into your project. Or you can browse the code here in the repository, and download only the files you need.
@@ -19,6 +23,8 @@ Make sure to change any namespaces on the models to fit your project structure. 
 You can add any fields to the migrations as you wish, and add any methods to the models, including any eloquent relationships. Some basic eloquent relationships have been included, but your ERP installation may be customized differently. 
 
 ## Contributing
+
+Using Laravel and have a newer or different version of Sage? Please feel free to submit a PR adding in those files into another root directory.
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
